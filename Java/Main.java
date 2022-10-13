@@ -2,6 +2,9 @@ package Java;
 
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        Car car = new Car();
+        car.license = "123AM456";
+        car.driver = "Luis";
+        car.printDataCar();
     }
 }
